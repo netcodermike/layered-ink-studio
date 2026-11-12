@@ -1,0 +1,16 @@
+{
+  "name": "layered-ink-studio",
+  "productName": "Layered Ink Studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Draw with two independently visible ink layers, brush controls, undo, and PNG export.",
+  "main": "main.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron . --verify --disable-gpu"
+  },
+  "devDependencies": {
+    "electron": "45.3.0"
+  }
+}
